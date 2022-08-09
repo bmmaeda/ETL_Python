@@ -4,6 +4,7 @@ from .interfaces.http_requester import HttpRequesterInterface
 
 class HttpRequester(HttpRequesterInterface):
 
+
     def __init__(self) -> None:
         self.__url = 'https://web.archive.org/web/20121007172955/https://www.nga.gov/collection/anZ1.htm'
 
